@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		B59886A1F5D8AC539FAE92F1 /* Pods_FirebaseLetsBuildTheApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586E2871B2EF97D2548E851E /* Pods_FirebaseLetsBuildTheApp.framework */; };
 		C4B6C5D727CF55220050B690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6C5D627CF55220050B690 /* AppDelegate.swift */; };
-		C4B6C5DB27CF55220050B690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6C5DA27CF55220050B690 /* ViewController.swift */; };
+		C4B6C5DB27CF55220050B690 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6C5DA27CF55220050B690 /* MessageViewController.swift */; };
 		C4B6C5E027CF55240050B690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B6C5DF27CF55240050B690 /* Assets.xcassets */; };
 		C4B6C5E327CF55240050B690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B6C5E127CF55240050B690 /* LaunchScreen.storyboard */; };
 		C4B6C5EB27CF57790050B690 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4B6C5EA27CF57790050B690 /* GoogleService-Info.plist */; };
+		C4B6C5ED27CF5B970050B690 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6C5EC27CF5B970050B690 /* LoginViewController.swift */; };
+		C4B6C5EF27CF5CB30050B690 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B6C5EE27CF5CB30050B690 /* CustomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +22,13 @@
 		586E2871B2EF97D2548E851E /* Pods_FirebaseLetsBuildTheApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseLetsBuildTheApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B6C5D327CF55220050B690 /* FirebaseLetsBuildTheApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseLetsBuildTheApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B6C5D627CF55220050B690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4B6C5DA27CF55220050B690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4B6C5DA27CF55220050B690 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		C4B6C5DF27CF55240050B690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B6C5E227CF55240050B690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4B6C5E427CF55240050B690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4B6C5EA27CF57790050B690 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4B6C5EC27CF5B970050B690 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4B6C5EE27CF5CB30050B690 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		CA33310E5A8ADAA7D59351B4 /* Pods-FirebaseLetsBuildTheApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseLetsBuildTheApp.release.xcconfig"; path = "Target Support Files/Pods-FirebaseLetsBuildTheApp/Pods-FirebaseLetsBuildTheApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				C4B6C5D627CF55220050B690 /* AppDelegate.swift */,
-				C4B6C5DA27CF55220050B690 /* ViewController.swift */,
+				C4B6C5EC27CF5B970050B690 /* LoginViewController.swift */,
+				C4B6C5DA27CF55220050B690 /* MessageViewController.swift */,
+				C4B6C5EE27CF5CB30050B690 /* CustomColor.swift */,
 				C4B6C5DF27CF55240050B690 /* Assets.xcassets */,
 				C4B6C5E127CF55240050B690 /* LaunchScreen.storyboard */,
 				C4B6C5E427CF55240050B690 /* Info.plist */,
@@ -203,7 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B6C5DB27CF55220050B690 /* ViewController.swift in Sources */,
+				C4B6C5ED27CF5B970050B690 /* LoginViewController.swift in Sources */,
+				C4B6C5DB27CF55220050B690 /* MessageViewController.swift in Sources */,
+				C4B6C5EF27CF5CB30050B690 /* CustomColor.swift in Sources */,
 				C4B6C5D727CF55220050B690 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
