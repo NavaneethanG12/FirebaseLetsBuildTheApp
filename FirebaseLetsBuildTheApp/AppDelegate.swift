@@ -25,9 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: MessageViewController())
+//        window?.rootViewController = UINavigationController(rootViewController: MessageViewController())
         
+//        window?.rootViewController = ScrollViewController()
         
+        window?.rootViewController = CollectionViewController()
         return true
     }
 
